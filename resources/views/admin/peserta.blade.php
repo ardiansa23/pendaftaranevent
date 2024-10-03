@@ -23,11 +23,11 @@
                         <td>
 
                             <a href="{{ route('admin.detail', $peserta->id) }}" class="btn btn-warning">Detail</a>
-                            {{-- <form action="{{ route('peserta.destroy', $peserta->id) }}" method="POST" style="display:inline;">
+                            <form action="{{ route('peserta.destroy', $peserta->id) }}" method="POST" style="display:inline;">
                                 @csrf
                                 @method('DELETE')
                                 <button type="submit" class="btn btn-danger">Delete</button>
-                            </form> --}}
+                            </form>
                         </td>
                     </tr>
                 @endforeach

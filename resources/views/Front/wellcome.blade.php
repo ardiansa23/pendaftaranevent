@@ -176,7 +176,7 @@
                     <h1>Ayo Daftar Sekarang dan <br> Jadilah Talent Siap Digital!</h1>
 
                     <!-- Menggunakan metode GET -->
-                    <a href="{{ route('event.register.post') }}" class="btn btn-utama m-auto w-80 mt-3 mb-3">Daftar</a>
+                    <a href="http://127.0.0.1:8000/event/Register" class="btn btn-utama m-auto w-80 mt-3 mb-3">Daftar</a>
 
                     <!-- Link WhatsApp tetap menggunakan <a> -->
                     <a class="mt-3 mb-5 hub" href="https://wa.me/6289633798626">Ada Pertanyaan? Hubungi Kami</a>

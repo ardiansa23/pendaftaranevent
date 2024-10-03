@@ -44,7 +44,8 @@ class EventController extends Controller
         session(['Peserta' => $pesertas]);
 
         // Redirect atau response setelah sukses
-        return redirect()->back()->with('success', 'Pendaftaran berhasil!');
+        //  return redirect()->back()->with('success', 'Pendaftaran berhasil!');
+        return redirect()->route('event.pembayaran')->with('success', 'Registrasi berhasil! Silakan lakukan pembayaran.');
     }
     public function showDetail($email)
 {
@@ -59,9 +60,8 @@ class EventController extends Controller
     // Kirim data peserta ke view
     return view('admin.detail_peserta', compact('peserta'));
 }
-public function pembayaran (){
-    return view ('event.pembayaran');
-}
-
+    public function pembayaran (){
+        return view ('event.pembayaran');
+    }
 
 }
