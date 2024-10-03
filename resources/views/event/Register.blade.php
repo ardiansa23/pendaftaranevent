@@ -27,7 +27,7 @@
     </div>
    @endif
 
-   <form method="POST" action="{{ route('event.Register') }}" class="mt-6">
+   <form method="POST" action="{{ route('submit.event') }}" class="mt-6">
     @csrf
     <h2 class="text-center text-lg font-bold mb-4">Registrasi Event</h2>
 

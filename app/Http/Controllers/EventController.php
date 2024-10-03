@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
+    public function index(){
+        // return redirect()->route('event.Register');
+        return view('event.Register');
+
+    }
     public function registerpeserta(Request $request)
     {
         // Validasi input
@@ -39,6 +44,7 @@ class EventController extends Controller
         session(['Peserta' => $pesertas]);
 
         // Redirect atau response setelah sukses
+        // return redirect()->route('event.Register')->with('success', 'Registrasi berhasil!');
         return redirect()->back()->with('success', 'Pendaftaran berhasil!');
     }
     public function showDetail($email)

@@ -22,7 +22,7 @@
                         <td>{{ $peserta->email }}</td>
                         <td>
 
-                            <a href="{{ route('admin.detailpeserta', $peserta->id) }}" class="btn btn-warning">Detail</a>
+                            <a href="{{ route('admin.detail', $peserta->id) }}" class="btn btn-warning">Detail</a>
                             {{-- <form action="{{ route('peserta.destroy', $peserta->id) }}" method="POST" style="display:inline;">
                                 @csrf
                                 @method('DELETE')

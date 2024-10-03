@@ -33,7 +33,10 @@
                 <div class="navbar-nav">
                     <h5 class="nav-link"><b>Workshop Artificial Intelligent</b> : Generative AI untuk Pemula</h5>
                     <div class="vr"></div>
-                    <a href="https://bit.ly/syn-WGenAI" class="btn btn-utama">Daftar Sekarang</a>
+                    <form method="POST" action="{{ route('event.register') }}">
+                        @csrf
+                        <button type="submit" class="btn btn-utama">Daftar Sekarang</button>
+                      </form>
                 </div>
             </div>
         </div>
@@ -171,12 +174,17 @@
             <div class="row">
                 <div class="col">
                     <h1>Ayo Daftar Sekarang dan <br> Jadilah Talent Siap Digital!</h1>
-                    <a href="https://bit.ly/syn-WGenAI" class="btn btn-utama m-auto w-80 mt-3 mb-3">Daftar</a>
+
+                    <!-- Menggunakan metode GET -->
+                    <a href="{{ route('event.register.post') }}" class="btn btn-utama m-auto w-80 mt-3 mb-3">Daftar</a>
+
+                    <!-- Link WhatsApp tetap menggunakan <a> -->
                     <a class="mt-3 mb-5 hub" href="https://wa.me/6289633798626">Ada Pertanyaan? Hubungi Kami</a>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- cta -->
 
 

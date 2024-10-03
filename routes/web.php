@@ -9,8 +9,16 @@ use Illuminate\Support\Facades\Auth;
 
 
 Route::get('/', function () {
-    return view('Front');})->name('home');
-Route::get('/', [FrontController::class, 'index'])->name('Front.welcome');
+    return view('Front.wellcome');})->name('home');
+Route::get('/', [FrontController::class, 'index'])->name('Front.wellcome');
+
+Route::get('/event/Register', function () {
+    return view('event.Register');
+})->name('event.register.post');
+
+Route::post('event/Register', [EventController::class, 'index'])->name('event.register');
+Route::post('event/Register/berhasil', [EventController::class, 'registerpeserta'])->name('submit.event');
+
 
 
 // Grouping routes for admin with middleware 'auth:admin' (only accessible if logged in as admin)
@@ -22,12 +30,6 @@ Route::middleware('auth:admin')->group(function () {
     Route::post('admin/logout', [AdminAuthController::class, 'logout'])->name('admin.logout');
 });
 
-
-// Public routes for event registration and login
-// Route::get('event/Register', function () {
-//     return view('event.Register');})->name('event.Register');
-
-Route::post('event/Register', [EventController::class, 'registerpeserta'])->name('event.register.post');
 
 // Admin login routes (available without auth)
 Route::get('admin/login', [AdminAuthController::class, 'showLoginForm'])->name('admin.login');
