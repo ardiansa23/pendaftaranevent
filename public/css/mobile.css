@@ -1,0 +1,495 @@
+@media (max-width: 991.98px) {
+
+    /* navbar */
+    .navbar-brand img {
+        width: 120px;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        font-size: 14px;
+    }
+
+    .nav-link {
+        color: #0E2D41;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .navbar-nav .btn {
+        width: 80px;
+        margin-left: 15px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .navbar-nav .dropdown-toggle::after {
+        display: none;
+    }
+
+    .dropdown-toggle {
+        border: none;
+        box-shadow: none;
+        padding-left: 0%;
+        padding-right: 20px;
+    }
+
+    .dropdown-toggle .fa-chevron-down {
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    .dropdown-menu {
+        border: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+    }
+
+    .navbar {
+        transition: background-color 0.3s ease-in-out;
+        background-color: #fff;
+    }
+
+    .navbar.scrolled {
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.50) 100%);
+        /* background-color: #fff; */
+    }
+
+    .navbar .vr {
+        rotate: 90deg;
+        margin-left: 30px;
+    }
+
+    /* navbar */
+
+    /* home-hero */
+    #hero {
+        margin-top: 10px;
+    }
+
+    #hero img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #hero .deskripsi-hero {
+        margin-top: 100px;
+    }
+
+    #hero .deskripsi-hero .btn {
+        width: 130px;
+    }
+
+    /* home-hero */
+
+    /* home-why */
+    #why {
+        margin-top: 100px;
+    }
+
+    #why .card {
+        text-align: center;
+        padding: 20px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #why .card2 {
+        text-align: justify;
+        padding: 20px;
+        border: none;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+
+    #why .card img {
+        width: 50px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    #why .deskripsi-why h3{
+        margin-top: 20px;
+    }
+
+    /* home-why */
+
+    /* home-katalog */
+    #katalog {
+        margin-top: 100px;
+    }
+
+    #katalog .card {
+        border: none;
+        transition: 0.5s ease;
+        margin-top: 10px;
+    }
+
+    #katalog .card:hover {
+        transform: scale(1.03);
+    }
+
+    #katalog .teks-katalog {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    #katalog .card-text {
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    #katalog .card-title {
+        color: white;
+    }
+
+    #katalog .card .see {
+        color: white;
+        text-decoration: none;
+    }
+
+    #katalog .card .see:hover {
+        text-decoration: underline #2ECC71;
+    }
+
+    /* home-katalog */
+
+    /* home-kelas */
+    #kelas {
+        margin-top: 100px;
+    }
+
+    #kelas .card {
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    #kelas .cost {
+        margin-top: -10px;
+    }
+
+    #kelas .card .card-body a {
+        text-decoration: none;
+        text-align: center;
+    }
+
+    /* home-kelas */
+
+    /* home-testi */
+    #testi {
+        margin-top: 100px;
+    }
+
+    #testi .card {
+        padding: 20px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    #testi .card img {
+        width: 50px;
+
+    }
+
+    #testi .nama-testi {
+        margin-top: 5px;
+    }
+
+    #testi .nama-testi p {
+        margin-top: -5px;
+    }
+
+    /* home-testi */
+
+    /* home-faq */
+    #faq {
+        margin-top: 100px;
+    }
+
+    #faq .accordion-button:focus {
+        background-color: #2ecc7053;
+    }
+
+    /* home-faq */
+
+    /* about artikel */
+    #artikel {
+        margin-top: 100px;
+    }
+
+    #artikel img {
+        width: 100%;
+    }
+
+    #artikel .deskripsi-artikel {
+        margin-top: 100px;
+        margin-left: 1%;
+    }
+
+    /* about artikel */
+
+    /* keranjang */
+    #keranjang {
+        margin-top: 100px;
+    }
+
+    #keranjang .sub {
+        cursor: pointer;
+    }
+
+    #keranjang .card {
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    #keranjang .modal-footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #keranjang .modal-footer .btn {
+        width: 120px;
+        margin: 10px;
+    }
+
+    #keranjang .modal-footer .sub:hover {
+        border: 1px solid red;
+    }
+
+    /* keranjang */
+
+    /* login */
+    #login {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #login .img-form {
+        display: flex;
+        justify-content: end;
+    }
+
+    #login .img-form img {
+        width: 80%;
+    }
+    
+    /* login */
+
+    /* daftar */
+    #daftar {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #daftar .img-form {
+        display: flex;
+        justify-content: end;
+    }
+
+    #daftar .img-form img {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    /* daftar */
+
+    /* profil */
+
+    #profil .card-info {
+        margin-top: 30px;
+    }
+
+    #profil .card-riwayat {
+        margin-top: 30px;
+    }
+    
+    #profil .card-kelas {
+        margin-top: 30px;
+    }
+    
+    #profil .card-sertif {
+        margin-top: 30px;
+    }
+
+    #profil .card-riwayat {
+        align-items: center;
+        padding: 5px;
+    }
+
+    #profil .card-riwayat .table  thead th {
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #profil .card-riwayat .table  tbody tr td {
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 100px;
+        padding-right: 5px;
+    }
+
+    #profil .card-riwayat a {
+        width: 50px;
+    }
+
+    /* profil */
+
+    /* bayar */
+    #bayar {
+        margin-top: 100px;
+    }
+
+    #bayar .kelas {
+        margin-top: 15px;
+    }
+
+    /* bayar */
+
+    /* detail */
+    #detail {
+        margin-top: 100px;
+    }
+
+    #detail p {
+        text-align: justify;
+    }
+
+    #detail .fixed-side {
+        position: fixed;
+        width: 200px;
+    }
+
+    #detail .fixed-side {
+        text-align: center;
+        overflow-y: auto;
+    }
+
+    #detail .sidebar .sidebar-menu {
+        display: block;
+        text-decoration: none;
+        color: #0E2D41;
+        margin: 10px;
+    }
+
+    #detail .sidebar-menu.active {
+        text-decoration: none;
+        background-color: #2ECC71;
+        width: auto;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    #detail a {
+        margin-top: 10px;
+    }
+
+    #biaya .card {
+        margin-bottom: 10px;
+    }
+    
+    #biaya .card .card-body small{
+        color: rgb(0, 0, 0);
+        font-size: small;
+    }
+
+    #jadwal .card {
+        margin-bottom: 10px;
+    }
+
+    #konfirmasi .card {
+        margin-bottom: 20px;
+    }
+    
+    #konfirmasi .ic-bank {
+        padding-right: 200px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    /* detail */
+
+    /* course */
+
+    #course .accordion {
+        margin-bottom: 20px;
+    }
+
+    /* course */
+
+    /* cta */
+    #cta {
+        margin-top: 100px;
+        padding-top: 50px;
+    }
+
+    #cta img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+
+    #cta h1 {
+        padding-top: 20%;
+    }
+
+    #cta .btn {
+        width: 130px;
+    }
+
+    /* cta */
+
+    /* footer */
+    footer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    footer img {
+        width: 120px;
+        margin-bottom: 35px;
+    }
+
+    footer .fa-square-whatsapp {
+        font-size: 16px;
+    }
+
+    footer i {
+        padding-right: 5px;
+    }
+
+    footer a {
+        display: block;
+        text-decoration: none;
+        color: #0E2D41;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    footer h5 {
+        padding-top: 10px;
+    }
+
+    footer a:hover {
+        text-decoration: underline #2ECC71;
+    }
+
+    footer .kelas-foot {
+        margin-left: 0%;
+        padding-top: 10px;
+    }
+
+    #footer-page {
+        margin-top: 50vh;
+    }
+
+    footer .kelas-foot-mobile {
+        padding-top: 10px;
+    }
+
+    /* footer */
+}
